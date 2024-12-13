@@ -5,7 +5,7 @@ class PiedraPapelTijera
 
     static void Main()
     {
-        int playersCount = 32;
+        int playersCount = 16;
         var playerNames = GenerateRandomName(playersCount);
         var gameManager = new Thread(() => ManageGame(playerNames));
 
